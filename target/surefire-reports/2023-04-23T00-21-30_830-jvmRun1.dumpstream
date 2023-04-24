@@ -1,0 +1,29 @@
+# Created at 2023-04-23T00:21:39.094
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2023-04-23T00:21:43.037
+Unexpected IOException with stream: 2023-04-23 00:21:43.037  INFO 3640 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2023-04-23T00:21:43.530
+Unexpected IOException with stream: 2023-04-23 00:21:43.529  INFO 3640 --- [           main] c.t.s.SpringbootAwsS3ApplicationTests    : Started SpringbootAwsS3ApplicationTests in 11.369 seconds (JVM running for 12.382)
+
+
+# Created at 2023-04-23T00:21:43.557
+Unexpected IOException: 5,1,com.techgeeknext.springbootawss3.SpringbootAwsS3ApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-04-23T00:21:43.820
+Unexpected IOException: 6,1,com.techgeeknext.springbootawss3.SpringbootAwsS3ApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-04-23T00:21:43.822
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.techgeeknext.springbootawss3.SpringbootAwsS3ApplicationTests,null,null,null
+
+

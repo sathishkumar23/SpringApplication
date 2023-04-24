@@ -1,0 +1,4 @@
+com\techgeeknext\springbootawss3\service\S3BucketStorageService.class
+com\techgeeknext\springbootawss3\controller\S3BucketStorageController.class
+com\techgeeknext\springbootawss3\SpringbootAwsS3Application.class
+com\techgeeknext\springbootawss3\config\AwsS3ClientConfig.class
